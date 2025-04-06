@@ -1,0 +1,116 @@
+/build
+
+# === General ===
+*.iml
+*.log
+*.pyc
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+*.class
+
+# === Gradle ===
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/cache/
+.gradle/daemon/
+.gradle/native/
+.gradle/taskHistory/
+.gradle/vcs-1/
+.gradle/wrapper/dists/
+.gradle/kotlin/
+**/build/
+
+# === Local Configuration Files ===
+local.properties
+.idea/
+.idea/*
+
+# Keep certain files in .idea (like code styles and inspections if team-wide)
+!.idea/inspectionProfiles/
+!.idea/codeStyles/
+!.idea/runConfigurations/
+
+# Android Studio/IntelliJ project files
+*.iws
+*.ipr
+*.jks
+*.keystore
+*.orig
+
+# === OS-Specific ===
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Kotlin/Java ===
+*.jar
+*.war
+*.ear
+
+# === Android-specific ===
+# NDK
+obj/
+
+# Instant Run
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+
+# Auto generated files
+captures/
+outputs/
+*.apk
+*.ap_
+*.aab
+*.dex
+*.map
+
+# Proguard
+*.hprof
+proguard/
+
+# Firebase
+google-services.json
+
+# Crashlytics
+fabric.properties
+crashlytics-build.properties
+
+# === Test Results ===
+test-results/
+*.ec
+
+# === Jetpack Compose ===
+.ui/
+*.pb
+
+# === Fastlane ===
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+fastlane/metadata/android/*/images
+
+
+
+# === Misc ===
+# VS Code
+.vscode/
+
+# === Git ===
+*.rej
+*.patch
+*.merge_backup
+*~.nib
+
+# === CI/CD (optional) ===
+.ci/
